@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+  <groups>
+  <dependencies>
+  		<group name ="smk1" depends-on="smk2"/>
+  		<group name ="smk2" depends-on="smk3"/>
+  		<group name ="smk3" depends-on="smk4"/>
+  </dependencies>
+  </groups>
+    <classes>
+      <class name="dependency.DependencyGroupEx1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

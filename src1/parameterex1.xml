@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" > 
+<suite parallel="false" name="Suite">
+ 		<parameter name="url" value="http://www.testyou.in/Login.aspx"/>
+		<parameter name="username" value="omkarbawkar@gmail.com"/>
+		<parameter name="password" value="12345698"/>
+  <test name="Chrome">
+	<parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="parametersdemo.ParameterEx1">
+      <methods>
+      		  <include name="setup"/>
+    		  <include name="website"/>
+    		  <include name="SignIn"/>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+   <test name="Edge">
+	<parameter name="browser" value="edge"/>	
+    <classes>
+      <class name="parametersdemo.ParameterEx1">
+      <methods>
+      		 <include name="setup"/>
+      		<include name="website"/>
+      		<include name="SignIn"/>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Firefox">
+	<parameter name="browser" value="firefox"/>	
+    <classes>
+      <class name="parametersdemo.ParameterEx1">
+      <methods>
+      		<include name="setup"/>
+      		<include name="website"/>
+      		<include name="SignIn"/>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

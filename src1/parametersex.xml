@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+	<parameter name="val1" value="40"></parameter>
+  	<parameter name="val2" value="50"></parameter>
+  <test name="Test">
+  	<parameter name="val1" value="10"></parameter>
+  	<parameter name="val2" value="20"></parameter> //this will be executed because hirarchy start from class then hw will find the parameter that class is near to parameter
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+    <classes>
+      <class name="parametersdemo.ParametersEx"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="tests" name="Suite">
+  <test name="parallelTest1">               //here thred count default value is 5
+    <classes>
+      <class name="paralleltesting.ChromeTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="parallelTest2">
+    <classes>
+      <class name="paralleltesting.ChromeTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="parallelTest3">
+    <classes>
+      <class name="paralleltesting.ChromeTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="parallelTest4">
+    <classes>
+      <class name="paralleltesting.ChromeTest"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="parallelTest5">
+    <classes>
+      <class name="paralleltesting.ChromeTest"/>
+    </classes>
+     <test name="parallelTest6">
+    <classes>
+      <class name="paralleltesting.ChromeTest"/>
+    </classes>
+  </test> <!-- Test -->
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
